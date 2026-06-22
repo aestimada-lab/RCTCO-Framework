@@ -73,8 +73,109 @@ Canva Magic Media
 ![Samal Women's Safety Icon] <img width="2000" height="2000" alt="Untitled design" src="https://github.com/user-attachments/assets/4075b05d-0d9c-4d13-8c47-cdd87daae30e" />
 
 
+--
+
+
+# Literature Verification Log
+
+## Topic: Mobile-Based Women's Safety and Empowerment Systems in Samal Island, Davao del Norte
+
+### 1. AI-Generated Summary Audit
+
+I prompted an AI research tool to summarize literature related to women's safety applications, gender-responsive governance, and digital intervention systems in Mindanao. The generated statements were manually verified using government reports, academic journals, and official agency publications.
+
+| AI-Generated Statement / Citation | Source Vetted Against | Status | Human Correction / Empirical Note |
+|----------------------------------|----------------------|--------|----------------------------------|
+| "Most women in rural Mindanao have access to dedicated emergency-response mobile applications provided by local governments." | DILG Gender and Development Reports; LGU Samal Publications | ❌ **Hallucination** | No evidence was found that most rural women have access to dedicated emergency-response applications. Existing interventions remain limited and unevenly distributed across LGUs. |
+| "Gender-based violence remains a significant concern in the Philippines, particularly in geographically isolated communities." | Philippine Commission on Women (PCW); PSA Reports | ✅ **Verified** | Literature consistently identifies gender-based violence as an ongoing concern, especially where access to support services is limited. |
+| "Mobile reporting platforms can improve access to support services for women experiencing violence." | UN Women Digital Inclusion Studies; Academic Literature on ICT4D | ✅ **Verified** | Multiple studies indicate that digital reporting systems may reduce barriers to seeking assistance and information. |
+| "A women's safety application alone can completely eliminate incidents of violence against women." | Review of ICT and Gender-Based Violence Literature | ❌ **Unsupported Claim** | Technology may assist prevention and reporting efforts but cannot independently eliminate violence. Broader institutional and community interventions remain necessary. |
+| "Economic opportunity modules integrated into women's safety applications can support empowerment outcomes." | Women's Economic Empowerment Literature; PCW Programs | ⚠️ **Partially Verified** | Studies suggest potential benefits, but outcomes depend on implementation quality, accessibility, and local context. |
+
+---
+
+### 2. Critical Reflection on Tool Limitations
+
+The AI platform efficiently summarized large volumes of literature related to women's safety, digital governance, and gender-responsive development. However, several statements overstated the effectiveness and availability of mobile safety technologies in rural communities. Some claims lacked supporting evidence, while others generalized findings from urban studies to geographically isolated areas.
+
+This audit demonstrated that AI-generated literature reviews should not be accepted without verification. Human review remains essential for validating statistics, confirming citations, identifying contextual inaccuracies, and distinguishing between empirical findings and speculative claims. The verification process improved the credibility of the literature synthesis and reduced the risk of incorporating misleading information into policy recommendations.
+
+---
+
+### 3. Key Research Insights
+
+- Gender-based violence remains a persistent social development concern in many communities.
+- Digital technologies can improve reporting, information access, and service coordination.
+- Technology should complement, not replace, community-based and institutional support systems.
+- Women's empowerment initiatives are more effective when safety, education, and economic opportunities are integrated.
+- Human verification is necessary to ensure AI-generated research outputs meet academic and policy standards.
+
+---
+
+### References Used for Verification
+
+1. Philippine Commission on Women (PCW)
+2. Philippine Statistics Authority (PSA)
+3. Department of the Interior and Local Government (DILG)
+4. UN Women Digital Inclusion Reports
+5. Peer-reviewed literature on ICT for Development (ICT4D)
+6. Local Government Unit of Island Garden City of Samal publications
+
 ---
 
 ## Key Takeaway
 
 The Samal Women's Safety Communication Prompt System demonstrates how prompt engineering can generate localized, culturally relevant, and community-centered communication materials. By embedding geographic constraints, audience specifications, and formatting requirements into the prompt, AI outputs become more actionable and meaningful for stakeholders within the Davao Region.
+
+
+--
+
+
+# Automated Visual Data Report  
+## Regional Development Analytics Dashboard (Mindanao Focus)
+
+### Dataset Focus: Socio-Economic & Environmental Indicators — Mindanao Regional CSV (Raw Input Simulation)
+
+---
+
+## 1. Data Cleaning Protocol Log (AI Processing Summary)
+
+### Raw Data Issues Identified
+- Inconsistent numeric formats (kg, MT, and mixed unit strings in single columns)
+- Missing values in key indicators (notably 2022–2024 waste output and crop yield rows)
+- Duplicate municipal entries across provincial datasets
+- Date formatting inconsistencies (MM/DD/YYYY vs YYYY only)
+- Outlier spikes in energy production likely caused by encoding or ingestion errors
+
+### AI Cleaning Operations Executed
+- Standardized all mass-based metrics to Metric Tons (MT)
+- Imputed missing values using:
+  - Median substitution for agricultural yield columns
+  - Forward-fill interpolation for energy production time series
+- Removed duplicate municipal records (14 duplicates merged)
+- Normalized all timestamps to YYYY format
+- Flagged extreme outliers (>3σ) for policy-level review (not deleted)
+
+### Cleaned Output Snapshot (Sample Structure)
+
+| Year | Crop Yield (MT) | Energy Production (GWh) | Waste Output (MT) |
+|------|-----------------|--------------------------|-------------------|
+| 2020 | 182,400         | 3,210                    | 45,120            |
+| 2021 | 190,880         | 3,455                    | 47,002            |
+| 2022 | 175,210         | 3,390                    | 52,610            |
+| 2023 | 149,005         | 3,120                    | 58,940            |
+| 2024 | 161,780         | 3,610                    | 60,115            |
+
+---
+
+## 2. Visualizations Generated
+
+### Chart 1: Agricultural Yield vs Environmental Stress Indicators (2020–2024)
+
+```mermaid
+xychart-beta
+    title "Mindanao Crop Yield vs Waste Output Trends"
+    x-axis [2020, 2021, 2022, 2023, 2024]
+    y-axis "Metric Units (Normalized Index)" 0 --> 200000
+    line "Crop Yield (MT)" [182400, 190880, 175210, 149005, 161780]
+    line "Waste Output (MT)" [45120, 47002, 52610, 58940, 60115]
