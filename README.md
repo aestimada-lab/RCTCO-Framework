@@ -70,7 +70,7 @@ Canva Magic Media
 
 ### Generated Asset
 
-![Samal Women's Safety Icon] <img width="2000" height="2000" alt="Untitled design" src="https://github.com/user-attachments/assets/4075b05d-0d9c-4d13-8c47-cdd87daae30e" />
+[Samal Women's Safety Icon] <img width="2000" height="2000" alt="Untitled design" src="https://github.com/user-attachments/assets/4075b05d-0d9c-4d13-8c47-cdd87daae30e" />
 
 
 --
