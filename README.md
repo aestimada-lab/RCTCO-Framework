@@ -128,7 +128,9 @@ The verification process demonstrated that AI-generated literature reviews shoul
 ### Conclusion
 
 The audit confirmed that AI tools can efficiently synthesize large volumes of literature but may introduce factual inaccuracies, unsupported assumptions, and contextual errors. By systematically verifying AI-generated claims against authoritative sources, researchers can maintain academic rigor while benefiting from the speed and efficiency of artificial intelligence. The findings support the potential value of mobile-based women's safety and empowerment systems in Samal Island, provided that such interventions are implemented alongside broader institutional and community-based support mechanisms.
---
+
+
+---
 
 
 # Automated Visual Data Report  
